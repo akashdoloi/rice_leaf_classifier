@@ -18,6 +18,17 @@
                 <img src="{{ img_path }}" alt="Uploaded Image">
             </div>
         {% endif %}
+
+        {% if treatment_plan %}
+            <div class="treatment">
+                <h3>🧪 Treatment Plan (Day-wise)</h3>
+                <ul>
+                    {% for day, instruction in treatment_plan.items() %}
+                        <li><strong>{{ day }}:</strong> {{ instruction }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
     </div>
 </body>
 </html>

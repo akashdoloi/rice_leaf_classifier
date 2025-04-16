@@ -33,3 +33,21 @@ button:hover {
     margin-top: 10px;
     border-radius: 8px;
 }
+.treatment {
+    background-color: #eafbea;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid #cce5cc;
+    text-align: left;
+}
+.treatment h3 {
+    color: #2e7d32;
+}
+.treatment ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.treatment li {
+    margin: 8px 0;
+}
